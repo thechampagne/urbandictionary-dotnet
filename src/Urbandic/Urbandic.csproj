@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>Urbandic</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Description>Urban Dictionary API client</Description>
+        <PackageTags>urbandictionary;api;wrapper</PackageTags>
+        <Authors>XXIV</Authors>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <PackageProjectUrl>https://github.com/thechampagne/urbandictionary-dotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/thechampagne/urbandictionary-dotnet.git</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <Copyright>Copyright (c) XXIV 2022</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <None Include="../../LICENSE" Pack="true" PackagePath="\" />
+      <None Include="../../icon.jpg" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
